@@ -66,10 +66,10 @@ function App() {
                 <CardContent>
                   <Button variant="contained" color="primary" onClick={handleClick(item.notifications)}> {item.name} </Button>
                   <Typography className={classes.text}>
-                      1st: { item.notifications.first_notification || '-----' }
+                      success: { item.notifications.first_notification || '-----' }
                   </Typography>
                   <Typography className={classes.text}>
-                      2nd: { item.notifications.second_notification || '-----' }
+                      error: { item.notifications.second_notification || '-----' }
                   </Typography>
                 </CardContent>
               </Card>
